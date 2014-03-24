@@ -170,10 +170,10 @@ void loop() {
             }
         }
         digitalWrite(i, HIGH);
-        delay(1);
+        delay(2);
         digitalWrite(i, LOW);
     }
-    tick = (tick+1) % 10;
+    tick = (tick+1) % 5;
 }
 
 // Local Variables:
